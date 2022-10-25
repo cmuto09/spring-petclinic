@@ -27,5 +27,8 @@
 	"forwardPorts": [8080],
 	"settings": {
 		"java.import.gradle.enabled": false
+	},
+	"hostRequirements": {
+		"cpus": 4
 	}
 }
