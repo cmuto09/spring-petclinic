@@ -7,7 +7,7 @@
 		"seccomp=unconfined"
 	],
 	"onCreateCommand": "mkdir -p /home/vscode/.m2 /home/vscode/.gradle && sudo chown vscode:vscode /home/vscode/.m2 /home/vscode/.gradle",
-	"updateContentCommand": "mvn install -Dmaven.test.skip",
+	"updateContentCommand": "cd /home/vscode && mvn install -DskipTests",
 	"remoteUser": "vscode",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:1": {},
